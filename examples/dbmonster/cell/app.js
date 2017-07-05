@@ -32,7 +32,7 @@ var cell = {
 					$components: [
 						{
 							$type: 'tr',
-							$components: _databases.map(this._tableData).pop()
+							$components: this._databases.map(this._tableData).pop()
 						}
 					]
 				}
